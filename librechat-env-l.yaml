@@ -526,7 +526,6 @@ endpoints:
           - claude-3-5-haiku
           - claude-3-5-haiku-20241022
           - claude-3-5-haiku-20241022-v1
-          - claude-3-5-haiku-latest
           - claude-3-5-sonnet
           - claude-3-5-sonnet-20240620-v1
           - claude-3-5-sonnet-20241022-v2
@@ -565,7 +564,6 @@ endpoints:
           - claude-sonnet-4-5-20250929-v1
           - claude-v2
           - codegemma-7b-it
-          - codellama-7b-instruct-solidity
           - coder-large
           - codestral
           - codestral-2508
@@ -647,7 +645,6 @@ endpoints:
           - gemini-2-0-flash-exp
           - gemini-2-0-flash-lite
           - gemini-2-0-flash-lite-001
-          - gemini-2-0-flash-lite-preview-02-05
           - gemini-2-5-flash
           - gemini-2-5-flash-image
           - gemini-2-5-flash-image-preview
@@ -657,11 +654,13 @@ endpoints:
           - gemini-2-5-flash-preview-04-17
           - gemini-2-5-flash-preview-05-20
           - gemini-2-5-flash-preview-09-2025
+          - gemini-2-5-flash-tts
           - gemini-2-5-pro
           - gemini-2-5-pro-exp-03-25
           - gemini-2-5-pro-preview
           - gemini-2-5-pro-preview-03-25
           - gemini-2-5-pro-preview-05-06
+          - gemini-2-5-pro-tts
           - gemini-2-flash
           - gemini-2-flash-exp
           - gemini-2-flash-lite
@@ -763,7 +762,9 @@ endpoints:
           - gpt-oss-safeguard-20b
           - granite-4-0-h-micro
           - grok-2
+          - grok-2-latest
           - grok-2-vision
+          - grok-2-vision-1212
           - grok-2-vision-latest
           - grok-3
           - grok-3-beta
@@ -790,6 +791,7 @@ endpoints:
           - jamba-large-1-7
           - jamba-mini-1-7
           - kat-coder-pro
+          - kimi-dev-72b
           - kimi-k2
           - kimi-k2-0905
           - kimi-k2-instruct
