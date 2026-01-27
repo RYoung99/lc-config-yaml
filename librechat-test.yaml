@@ -1640,7 +1640,6 @@ endpoints:
           - Steelskull/L3.3-MS-Evayale-70B
           - Steelskull/L3.3-MS-Nevoria-70b
           - Steelskull/L3.3-Nevoria-R1-70b
-          - TEE/deepseek-chat-v3-0324
           - TEE/deepseek-r1-0528
           - TEE/deepseek-v3.1
           - TEE/deepseek-v3.2
@@ -2293,7 +2292,6 @@ endpoints:
           - tngtech/deepseek-r1t-chimera:free
           - tngtech/deepseek-r1t2-chimera:free
           - tngtech/tng-r1t-chimera:free
-          - xiaomi/mimo-v2-flash:free
           - z-ai/glm-4.5-air:free
           - '---EXTENDED---'
           - openai/gpt-4o:extended
