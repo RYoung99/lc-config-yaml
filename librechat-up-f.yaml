@@ -568,12 +568,10 @@ endpoints:
           - claude-sonnet-4-5-20250929-v1
           - claude-v2
           - codegemma-7b-it
-          - codellama-7b-instruct-solidity
           - coder-large
           - codestral-2508
           - codex-mini-latest
           - cogito-v2-1-671b
-          - cogito-v2-preview-llama-109b-moe
           - cogito-v2-preview-llama-405b
           - cogito-v2-preview-llama-70b
           - command
@@ -625,12 +623,12 @@ endpoints:
           - devstral-small
           - devstral-small-2505
           - devstral-small-2507
-          - dolphin-mistral-24b-venice-edition
           - ernie-4-5-21b-a3b
           - ernie-4-5-21b-a3b-thinking
           - ernie-4-5-300b-a47b
           - ernie-4-5-vl-28b-a3b
           - ernie-4-5-vl-424b-a47b
+          - free
           - gemini-1-5-flash
           - gemini-1-5-flash-8b
           - gemini-1-5-flash-8b-exp
@@ -638,6 +636,7 @@ endpoints:
           - gemini-2-0-flash-exp
           - gemini-2-0-flash-lite-001
           - gemini-2-5-flash
+          - gemini-2-5-flash-image
           - gemini-2-5-flash-lite
           - gemini-2-5-flash-lite-preview-06-17
           - gemini-2-5-flash-lite-preview-09-2025
@@ -662,7 +661,6 @@ endpoints:
           - gemma-3-12b-it
           - gemma-3-27b-it
           - gemma-3-4b-it
-          - gemma-3n-e2b-it
           - giant-context
           - glm-4-32b
           - glm-4-5
@@ -763,6 +761,7 @@ endpoints:
           - grok-4-1-fast
           - grok-4-1-fast-non-reasoning
           - grok-4-1-fast-non-reasoning-latest
+          - grok-4-fast
           - grok-4-fast-non-reasoning
           - grok-4-latest
           - grok-code-fast
@@ -854,6 +853,7 @@ endpoints:
           - llama-guard-2-8b
           - llama-guard-3-8b
           - llama-guard-4-12b
+          - llemma-7b
           - longcat-flash
           - longcat-flash-chat
           - maestro-reasoning
@@ -1018,7 +1018,6 @@ endpoints:
           - qwen-3-30b-a3b-thinking-2507
           - qwen-3-32b
           - qwen-3-32b-fp8
-          - qwen-3-32b-v1
           - qwen-3-4b
           - qwen-3-8b
           - qwen-3-coder
@@ -1028,13 +1027,12 @@ endpoints:
           - qwen-3-coder-480b-a35b-instruct-fp8
           - qwen-3-coder-480b-a35b-instruct-turbo
           - qwen-3-coder-flash
-          - qwen-3-coder-plus
-          - qwen-3-max
           - qwen-3-next-80b-a3b
           - qwen-3-next-80b-a3b-instruct
           - qwen-3-next-80b-a3b-thinking
           - qwen-3-vl-235b-a22b
           - qwen-3-vl-235b-a22b-instruct
+          - qwen-3-vl-235b-a22b-thinking
           - qwen-3-vl-30b-a3b-instruct
           - qwen-3-vl-30b-a3b-thinking
           - qwen-3-vl-32b-instruct
@@ -1050,14 +1048,12 @@ endpoints:
           - qwq-32b
           - reasoners
           - refuel-llm-v2-small
-          - relace-apply-3
           - relace-search
           - remm-slerp-l2-13b
           - rnj-1-instruct
           - rocinante-12b
           - router
           - seed-1-6
-          - seed-1-6-flash
           - shisa-2-llama-3-3-70b
           - shisa-v2-llama-3-3-70b
           - skyfall-36b-v2
@@ -1874,6 +1870,7 @@ endpoints:
           - qwen/qwen3-32b
           - qwen/qwen3-coder
           - qwen/qwen3-coder-flash
+          - qwen/qwen3-coder-next
           - qwen/qwen3-coder-plus
           - qwen/qwen3-max
           - qwen/qwen3-next-80b-a3b-thinking
@@ -2177,7 +2174,6 @@ endpoints:
           - google/gemma-3n-e4b-it:free
           - liquid/lfm-2.5-1.2b-instruct:free
           - liquid/lfm-2.5-1.2b-thinking:free
-          - meta-llama/llama-3.1-405b-instruct:free
           - meta-llama/llama-3.2-3b-instruct:free
           - meta-llama/llama-3.3-70b-instruct:free
           - mistralai/mistral-small-3.1-24b-instruct:free
@@ -2187,7 +2183,6 @@ endpoints:
           - nvidia/nemotron-nano-9b-v2:free
           - openai/gpt-oss-120b:free
           - openai/gpt-oss-20b:free
-          - qwen/qwen-2.5-vl-7b-instruct:free
           - qwen/qwen3-4b:free
           - qwen/qwen3-coder:free
           - qwen/qwen3-next-80b-a3b-instruct:free
@@ -2447,6 +2442,7 @@ endpoints:
           - qwen/qwen3-coder
           - qwen/qwen3-coder-30b-a3b-instruct
           - qwen/qwen3-coder-flash
+          - qwen/qwen3-coder-next
           - qwen/qwen3-coder-plus
           - qwen/qwen3-coder:exacto
           - qwen/qwen3-max
