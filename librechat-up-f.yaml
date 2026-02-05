@@ -555,6 +555,7 @@ endpoints:
           - claude-instant-v1
           - claude-opus-4
           - claude-opus-4-1
+          - claude-opus-4-1-20250805
           - claude-opus-4-1-20250805-v1
           - claude-opus-4-20250514
           - claude-opus-4-20250514-v1
@@ -568,10 +569,12 @@ endpoints:
           - claude-sonnet-4-5-20250929-v1
           - claude-v2
           - codegemma-7b-it
+          - codellama-7b-instruct-solidity
           - coder-large
           - codestral-2508
           - codex-mini-latest
           - cogito-v2-1-671b
+          - cogito-v2-preview-llama-109b-moe
           - cogito-v2-preview-llama-405b
           - cogito-v2-preview-llama-70b
           - command
@@ -623,12 +626,12 @@ endpoints:
           - devstral-small
           - devstral-small-2505
           - devstral-small-2507
+          - dolphin-mistral-24b-venice-edition
           - ernie-4-5-21b-a3b
           - ernie-4-5-21b-a3b-thinking
           - ernie-4-5-300b-a47b
           - ernie-4-5-vl-28b-a3b
           - ernie-4-5-vl-424b-a47b
-          - free
           - gemini-1-5-flash
           - gemini-1-5-flash-8b
           - gemini-1-5-flash-8b-exp
@@ -661,6 +664,7 @@ endpoints:
           - gemma-3-12b-it
           - gemma-3-27b-it
           - gemma-3-4b-it
+          - gemma-3n-e2b-it
           - giant-context
           - glm-4-32b
           - glm-4-5
@@ -755,6 +759,7 @@ endpoints:
           - grok-3-mini
           - grok-3-mini-beta
           - grok-3-mini-fast
+          - grok-3-mini-fast-beta
           - grok-3-mini-fast-latest
           - grok-4
           - grok-4-0709
@@ -803,6 +808,7 @@ endpoints:
           - lfm-2-5-1-2b-instruct
           - lfm-2-5-1-2b-thinking
           - lfm-2-8b-a1b
+          - ling-1t
           - llama-2-13b
           - llama-2-13b-chat-hf
           - llama-2-13b-tiefighter
@@ -1018,6 +1024,7 @@ endpoints:
           - qwen-3-30b-a3b-thinking-2507
           - qwen-3-32b
           - qwen-3-32b-fp8
+          - qwen-3-32b-v1
           - qwen-3-4b
           - qwen-3-8b
           - qwen-3-coder
@@ -1027,6 +1034,8 @@ endpoints:
           - qwen-3-coder-480b-a35b-instruct-fp8
           - qwen-3-coder-480b-a35b-instruct-turbo
           - qwen-3-coder-flash
+          - qwen-3-coder-plus
+          - qwen-3-max
           - qwen-3-next-80b-a3b
           - qwen-3-next-80b-a3b-instruct
           - qwen-3-next-80b-a3b-thinking
@@ -1048,12 +1057,14 @@ endpoints:
           - qwq-32b
           - reasoners
           - refuel-llm-v2-small
+          - relace-apply-3
           - relace-search
           - remm-slerp-l2-13b
           - rnj-1-instruct
           - rocinante-12b
           - router
           - seed-1-6
+          - seed-1-6-flash
           - shisa-2-llama-3-3-70b
           - shisa-v2-llama-3-3-70b
           - skyfall-36b-v2
@@ -1068,7 +1079,6 @@ endpoints:
           - sorcererlm-8x22b
           - spotlight
           - step-3
-          - step-3-5-flash
           - test123
           - tng-r1t-chimera
           - tongyi-deepresearch-30b-a3b
@@ -1711,7 +1721,6 @@ endpoints:
           - gemini-3-pro-preview
           - gemini-3-pro-preview-thinking
           - gemini-exp-1206
-          - gemini-exp-1206
           - glm-4
           - glm-4-air
           - glm-4-air-0111
@@ -2162,7 +2171,6 @@ endpoints:
         default:
           - openrouter/auto
           - '---FREE---'
-          - allenai/molmo-2-8b:free
           - arcee-ai/trinity-large-preview:free
           - arcee-ai/trinity-mini:free
           - cognitivecomputations/dolphin-mistral-24b-venice-edition:free
@@ -2199,6 +2207,7 @@ endpoints:
           - aion-labs/aion-1.0-mini
           - aion-labs/aion-rp-llama-3.1-8b
           - '---ALLENAI---'
+          - allenai/molmo-2-8b
           - allenai/olmo-2-0325-32b-instruct
           - allenai/olmo-3-32b-think
           - allenai/olmo-3-7b-instruct
@@ -2240,11 +2249,6 @@ endpoints:
           - cohere/command-r-08-2024
           - cohere/command-r-plus-08-2024
           - cohere/command-r7b-12-2024
-          - '---DEEPCOGITO---'
-          - deepcogito/cogito-v2-preview-llama-109b-moe
-          - deepcogito/cogito-v2-preview-llama-405b
-          - deepcogito/cogito-v2-preview-llama-70b
-          - deepcogito/cogito-v2.1-671b
           - '---DEEPSEEK---'
           - deepseek/deepseek-chat
           - deepseek/deepseek-chat-v3-0324
@@ -2500,6 +2504,7 @@ endpoints:
           - bytedance-seed/seed-1.6
           - bytedance-seed/seed-1.6-flash
           - bytedance/ui-tars-1.5-7b
+          - deepcogito/cogito-v2.1-671b
           - eleutherai/llemma_7b
           - essentialai/rnj-1-instruct
           - gryphe/mythomax-l2-13b
