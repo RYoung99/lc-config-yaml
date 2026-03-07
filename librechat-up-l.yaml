@@ -574,6 +574,7 @@ endpoints:
           - claude-sonnet-4-6
           - claude-v2
           - codegemma-7b-it
+          - codellama-7b-instruct-solidity
           - coder-large
           - codestral-2508
           - cogito-v2-1-671b
@@ -603,7 +604,6 @@ endpoints:
           - deepseek-r1-0528-turbo
           - deepseek-r1-distill-llama-70b
           - deepseek-r1-distill-qwen-14b
-          - deepseek-r1-distill-qwen-32b
           - deepseek-r1-turbo
           - deepseek-r1t2-chimera
           - deepseek-r3-1
@@ -654,6 +654,7 @@ endpoints:
           - gemini-3-flash-preview
           - gemini-3-pro
           - gemini-3-pro-image
+          - gemini-3-pro-image-preview
           - gemini-3-pro-preview
           - gemini-pro
           - gemini-pro-vision
@@ -746,6 +747,7 @@ endpoints:
           - gpt-5-pro
           - gpt-5-pro-2025-10-06
           - gpt-5-search-api
+          - gpt-5-search-api-2025-10-14
           - gpt-audio
           - gpt-audio-mini
           - gpt-oss-120b
@@ -853,6 +855,7 @@ endpoints:
           - llama-guard-2-8b
           - llama-guard-3-8b
           - llama-guard-4-12b
+          - llemma-7b
           - longcat-flash
           - longcat-flash-chat
           - maestro-reasoning
@@ -861,6 +864,7 @@ endpoints:
           - magnum-v4-72b
           - marin-8b-instruct
           - mercury
+          - mercury-2
           - mercury-coder
           - mimo-2-flash
           - mimo-v2-flash
