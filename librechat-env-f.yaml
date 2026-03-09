@@ -513,6 +513,7 @@ endpoints:
           - aibi
           - aion
           - aion-1-0
+          - aion-1-0-mini
           - aion-2-0
           - aion-rp-llama-3-1-8b
           - anubis-70b-v1-1
@@ -554,7 +555,6 @@ endpoints:
           - claude-sonnet-4-20250514-v1
           - claude-sonnet-4-5
           - claude-sonnet-4-5-20250929
-          - claude-sonnet-4-5-20250929-v1
           - claude-sonnet-4-6
           - claude-v2
           - codegemma-7b-it
@@ -779,7 +779,6 @@ endpoints:
           - kimi-k2-thinking
           - l3-1-70b-euryale-v2-2
           - l3-1-70b-hanami-x1
-          - l3-1-euryale-70b
           - l3-3-70b-euryale-v2-3
           - l3-3-euryale-70b
           - l3-8b-lunaris-v1-turbo
@@ -791,10 +790,10 @@ endpoints:
           - lfm-2-24b-a2b
           - lfm-2-5-1-2b-instruct
           - lfm-2-5-1-2b-thinking
-          - lfm-2-8b-a1b
           - llama-2-13b
           - llama-2-13b-chat-hf
           - llama-2-13b-tiefighter
+          - llama-3-1-405b
           - llama-3-1-405b-instruct
           - llama-3-1-70b-instruct
           - llama-3-1-70b-instruct-turbo
@@ -922,6 +921,7 @@ endpoints:
           - nemotron-nano-3-30b
           - nemotron-nano-9b-2
           - nemotron-nano-9b-v2
+          - noromaid-20b
           - nova-2-lite
           - nova-2-lite-v1
           - nova-lite
@@ -961,7 +961,6 @@ endpoints:
           - olmo-3-32b-think
           - olmo-3-7b-instruct
           - olmo-3-7b-think
-          - olmocr-2-7b-1025
           - olmocr-7b
           - olmocr-7b-0825
           - paddleocr-vl-0-9b
@@ -1005,7 +1004,6 @@ endpoints:
           - qwen-3-5-122b-a10b
           - qwen-3-5-27b
           - qwen-3-5-35b-a3b
-          - qwen-3-5-397b-a17b
           - qwen-3-5-flash-02-23
           - qwen-3-5-plus-02-15
           - qwen-3-8b
@@ -1052,7 +1050,6 @@ endpoints:
           - shisa-2-llama-3-3-70b
           - shisa-v2-llama-3-3-70b
           - skyfall-36b-v2
-          - solar-pro-3
           - sonar
           - sonar-deep-research
           - sonar-pro
