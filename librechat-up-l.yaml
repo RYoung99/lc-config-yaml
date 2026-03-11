@@ -528,6 +528,7 @@ endpoints:
           - aibi
           - aion
           - aion-1-0
+          - aion-1-0-mini
           - aion-2-0
           - aion-rp-llama-3-1-8b
           - anubis-70b-v1-1
@@ -569,11 +570,9 @@ endpoints:
           - claude-sonnet-4-20250514-v1
           - claude-sonnet-4-5
           - claude-sonnet-4-5-20250929
-          - claude-sonnet-4-5-20250929-v1
           - claude-sonnet-4-6
           - claude-v2
           - codegemma-7b-it
-          - codellama-7b-instruct-solidity
           - coder-large
           - codestral-2508
           - cogito-v2-1-671b
@@ -636,10 +635,8 @@ endpoints:
           - gemini-2-0-flash-001
           - gemini-2-0-flash-lite-001
           - gemini-2-5-flash
-          - gemini-2-5-flash-image
           - gemini-2-5-flash-lite
           - gemini-2-5-flash-lite-preview-06-17
-          - gemini-2-5-flash-lite-preview-09-2025
           - gemini-2-5-pro
           - gemini-2-5-pro-preview
           - gemini-2-5-pro-preview-05-06
@@ -665,6 +662,7 @@ endpoints:
           - gemma-3-12b-it
           - gemma-3-27b-it
           - gemma-3-4b-it
+          - gemma-3n-e2b-it
           - giant-context
           - glm-4-32b
           - glm-4-5
@@ -734,12 +732,15 @@ endpoints:
           - gpt-5-4-2026-03-05
           - gpt-5-4-pro
           - gpt-5-4-pro-2026-03-05
+          - gpt-5-chat
           - gpt-5-chat-latest
           - gpt-5-codex
           - gpt-5-image
           - gpt-5-image-mini
           - gpt-5-mini
+          - gpt-5-mini-2025-08-07
           - gpt-5-nano
+          - gpt-5-nano-2025-08-07
           - gpt-5-pro
           - gpt-5-pro-2025-10-06
           - gpt-5-search-api
@@ -806,6 +807,7 @@ endpoints:
           - llama-2-13b
           - llama-2-13b-chat-hf
           - llama-2-13b-tiefighter
+          - llama-3-1-405b
           - llama-3-1-405b-instruct
           - llama-3-1-70b-instruct
           - llama-3-1-70b-instruct-turbo
@@ -814,7 +816,6 @@ endpoints:
           - llama-3-1-8b-instruct-turbo
           - llama-3-1-8b-instruct-v1
           - llama-3-1-large
-          - llama-3-1-lumimaid-8b
           - llama-3-1-nemotron-70b-instruct
           - llama-3-1-swallow-70b-instruct-v0-3
           - llama-3-2-11b-instruct
@@ -933,6 +934,7 @@ endpoints:
           - nemotron-nano-3-30b
           - nemotron-nano-9b-2
           - nemotron-nano-9b-v2
+          - noromaid-20b
           - nova-2-lite
           - nova-2-lite-v1
           - nova-lite
@@ -992,6 +994,7 @@ endpoints:
           - qwen-2-5-7b-instruct-turbo
           - qwen-2-5-coder-32b-instruct
           - qwen-2-5-coder-7b
+          - qwen-2-5-coder-7b-instruct
           - qwen-2-5-large
           - qwen-2-5-small
           - qwen-2-5-vl-32b-instruct
@@ -1012,19 +1015,20 @@ endpoints:
           - qwen-3-30b-a3b-thinking-2507
           - qwen-3-32b
           - qwen-3-4b
+          - qwen-3-5-122b-a10b
           - qwen-3-5-27b
           - qwen-3-5-35b-a3b
           - qwen-3-5-397b-a17b
+          - qwen-3-5-9b
           - qwen-3-5-flash-02-23
           - qwen-3-5-plus-02-15
           - qwen-3-8b
           - qwen-3-coder
           - qwen-3-coder-30b-a3b-instruct
-          - qwen-3-coder-30b-a3b-v1
+          - qwen-3-coder-480b-a35b-instruct
           - qwen-3-coder-480b-a35b-instruct-turbo
           - qwen-3-coder-flash
           - qwen-3-coder-next
-          - qwen-3-coder-plus
           - qwen-3-max
           - qwen-3-max-thinking
           - qwen-3-next-80b-a3b
@@ -1032,9 +1036,7 @@ endpoints:
           - qwen-3-next-80b-a3b-thinking
           - qwen-3-vl-235b-a22b
           - qwen-3-vl-235b-a22b-instruct
-          - qwen-3-vl-235b-a22b-thinking
           - qwen-3-vl-30b-a3b-instruct
-          - qwen-3-vl-30b-a3b-thinking
           - qwen-3-vl-32b-instruct
           - qwen-3-vl-8b-instruct
           - qwen-max
@@ -1055,6 +1057,7 @@ endpoints:
           - seed-1-6
           - seed-1-6-flash
           - seed-1-8
+          - seed-2-0-lite
           - seed-2-0-mini
           - seed-2-mini
           - shisa-2-llama-3-3-70b
@@ -1068,7 +1071,6 @@ endpoints:
           - sonar-reasoning-pro
           - sora-2
           - sora-2-pro
-          - sorcererlm-8x22b
           - spotlight
           - step-3
           - step-3-5-flash
@@ -1684,6 +1686,7 @@ endpoints:
           - brave
           - brave-pro
           - brave-research
+          - bytedance-seed/seed-2.0-lite
           - chutesai/Mistral-Small-3.2-24B-Instruct-2506
           - claude-3-5-haiku-20241022
           - claude-3-5-sonnet-20240620
@@ -2356,6 +2359,7 @@ endpoints:
           - '---BYTEDANCE-SEED---'
           - bytedance-seed/seed-1.6
           - bytedance-seed/seed-1.6-flash
+          - bytedance-seed/seed-2.0-lite
           - bytedance-seed/seed-2.0-mini
           - '---COHERE---'
           - cohere/command-a
@@ -2371,7 +2375,6 @@ endpoints:
           - deepseek/deepseek-r1-distill-llama-70b
           - deepseek/deepseek-r1-distill-qwen-32b
           - deepseek/deepseek-v3.1-terminus
-          - deepseek/deepseek-v3.1-terminus:exacto
           - deepseek/deepseek-v3.2
           - deepseek/deepseek-v3.2-exp
           - deepseek/deepseek-v3.2-speciale
@@ -2419,7 +2422,6 @@ endpoints:
           - meta-llama/llama-3.3-70b-instruct
           - meta-llama/llama-4-maverick
           - meta-llama/llama-4-scout
-          - meta-llama/llama-guard-2-8b
           - meta-llama/llama-guard-3-8b
           - meta-llama/llama-guard-4-12b
           - '---MINIMAX---'
@@ -2457,7 +2459,6 @@ endpoints:
           - '---MOONSHOTAI---'
           - moonshotai/kimi-k2
           - moonshotai/kimi-k2-0905
-          - moonshotai/kimi-k2-0905:exacto
           - moonshotai/kimi-k2-thinking
           - moonshotai/kimi-k2.5
           - '---NOUSRESEARCH---'
@@ -2518,7 +2519,6 @@ endpoints:
           - openai/gpt-audio
           - openai/gpt-audio-mini
           - openai/gpt-oss-120b
-          - openai/gpt-oss-120b:exacto
           - openai/gpt-oss-20b
           - openai/gpt-oss-safeguard-20b
           - openai/o1
@@ -2566,7 +2566,6 @@ endpoints:
           - qwen/qwen3-coder-flash
           - qwen/qwen3-coder-next
           - qwen/qwen3-coder-plus
-          - qwen/qwen3-coder:exacto
           - qwen/qwen3-max
           - qwen/qwen3-max-thinking
           - qwen/qwen3-next-80b-a3b-instruct
@@ -2582,6 +2581,7 @@ endpoints:
           - qwen/qwen3.5-27b
           - qwen/qwen3.5-35b-a3b
           - qwen/qwen3.5-397b-a17b
+          - qwen/qwen3.5-9b
           - qwen/qwen3.5-flash-02-23
           - qwen/qwen3.5-plus-02-15
           - qwen/qwq-32b
@@ -2611,7 +2611,6 @@ endpoints:
           - z-ai/glm-4.5-air
           - z-ai/glm-4.5v
           - z-ai/glm-4.6
-          - z-ai/glm-4.6:exacto
           - z-ai/glm-4.6v
           - z-ai/glm-4.7
           - z-ai/glm-4.7-flash
@@ -2637,13 +2636,10 @@ endpoints:
           - microsoft/wizardlm-2-8x22b
           - morph/morph-v3-fast
           - morph/morph-v3-large
-          - neversleep/llama-3.1-lumimaid-8b
-          - neversleep/noromaid-20b
           - nex-agi/deepseek-v3.1-nex-n1
           - openrouter/bodybuilder
           - openrouter/free
           - prime-intellect/intellect-3
-          - raifle/sorcererlm-8x22b
           - relace/relace-apply-3
           - relace/relace-search
           - stepfun/step-3.5-flash
