@@ -525,6 +525,7 @@ endpoints:
           - all-mpnet-base-v2
           - anubis-70b-v1-1
           - anubis-pro-105b-v1
+          - babbage-002
           - bge-base-en-v1-5
           - bge-en-icl
           - bge-large-en-v1-5
@@ -568,7 +569,7 @@ endpoints:
           - claude-opus-4-6-1
           - claude-opus-4-6-fast
           - claude-opus-4-6-v1
-          - claude-opus-4-7
+          - claude-opus-latest
           - claude-sonnet-4
           - claude-sonnet-4-20250514
           - claude-sonnet-4-20250514-v1
@@ -872,6 +873,7 @@ endpoints:
           - gpt-5-3-codex
           - gpt-5-4
           - gpt-5-4-2026-03-05
+          - gpt-5-4-image-2
           - gpt-5-4-mini
           - gpt-5-4-mini-2026-03-17
           - gpt-5-4-nano
@@ -900,6 +902,8 @@ endpoints:
           - gpt-image-1
           - gpt-image-1-5
           - gpt-image-1-mini
+          - gpt-image-2
+          - gpt-image-2-2026-04-21
           - gpt-oss-120b
           - gpt-oss-120b-1
           - gpt-oss-120b-turbo
@@ -967,6 +971,7 @@ endpoints:
           - lfm-2-5-1-2b-instruct
           - lfm-2-5-1-2b-thinking
           - lfm-2-8b-a1b
+          - ling-2-6-flash
           - llama-2-13b
           - llama-2-13b-chat-hf
           - llama-2-13b-tiefighter
@@ -1936,6 +1941,7 @@ endpoints:
           - TEE/kimi-k2-thinking
           - TEE/kimi-k2.5
           - TEE/kimi-k2.5-thinking
+          - TEE/kimi-k2.6
           - TEE/llama3-3-70b
           - TEE/mimo-v2-flash
           - TEE/minimax-m2.1
@@ -1943,6 +1949,7 @@ endpoints:
           - TEE/qwen2.5-vl-72b-instruct
           - TEE/qwen3-30b-a3b-instruct-2507
           - TEE/qwen3-coder
+          - TEE/qwen3-coder-next
           - TEE/qwen3.5-27b
           - TEE/qwen3.5-397b-a17b
           - THUDM/GLM-4-32B-0414
@@ -2169,6 +2176,7 @@ endpoints:
           - huihui-ai/Qwen2.5-32B-Instruct-abliterated
           - hunyuan-t1-latest
           - hunyuan-turbos-20250226
+          - inclusionai/ling-2.6-flash
           - inflatebot/MN-12B-Mag-Mell-R1
           - inflection/inflection-3-pi
           - inflection/inflection-3-productivity
@@ -2542,6 +2550,7 @@ endpoints:
           - nvidia/nvidia-nemotron-nano-9b-v2
           - nvidia/riva-translate-4b-instruct
           - nvidia/riva-translate-4b-instruct-v1.1
+          - nvidia/vila
           - openai/gpt-oss-120b
           - openai/gpt-oss-20b
           - qwen/qwen2.5-coder-32b-instruct
@@ -2587,6 +2596,7 @@ endpoints:
           - google/gemma-3n-e4b-it:free
           - google/gemma-4-26b-a4b-it:free
           - google/gemma-4-31b-it:free
+          - inclusionai/ling-2.6-flash:free
           - liquid/lfm-2.5-1.2b-instruct:free
           - liquid/lfm-2.5-1.2b-thinking:free
           - meta-llama/llama-3.2-3b-instruct:free
@@ -2796,6 +2806,7 @@ endpoints:
           - openai/gpt-5.3-chat
           - openai/gpt-5.3-codex
           - openai/gpt-5.4
+          - openai/gpt-5.4-image-2
           - openai/gpt-5.4-mini
           - openai/gpt-5.4-nano
           - openai/gpt-5.4-pro
@@ -2816,8 +2827,8 @@ endpoints:
           - openai/o4-mini-high
           - '---OPENROUTER---'
           - openrouter/bodybuilder
-          - openrouter/elephant-alpha
           - openrouter/free
+          - openrouter/pareto-code
           - '---PERPLEXITY---'
           - perplexity/sonar
           - perplexity/sonar-deep-research
@@ -2945,6 +2956,7 @@ endpoints:
           - undi95/remm-slerp-l2-13b
           - upstage/solar-pro-3
           - writer/palmyra-x5
+          - ~anthropic/claude-opus-latest
         fetch: false
       dropParams:
         - "stop"
