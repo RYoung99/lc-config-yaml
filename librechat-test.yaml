@@ -1868,7 +1868,6 @@ endpoints:
           - NousResearch/DeepHermes-3-Mistral-24B-Preview
           - NousResearch/Hermes-4-70B:thinking
           - Qwen/Qwen2.5-Coder-32B-Instruct
-          - Qwen/Qwen3-235B-A22B
           - Qwen/Qwen3-235B-A22B-Instruct-2507
           - Qwen/Qwen3-235B-A22B-Instruct-2507-TEE
           - Qwen/Qwen3-235B-A22B-Thinking-2507
@@ -2058,6 +2057,8 @@ endpoints:
           - deepseek/deepseek-v4-flash
           - deepseek/deepseek-v4-flash:thinking
           - deepseek/deepseek-v4-pro
+          - deepseek/deepseek-v4-pro-cheaper
+          - deepseek/deepseek-v4-pro-cheaper:thinking
           - deepseek/deepseek-v4-pro:thinking
           - dmind/dmind-1
           - dmind/dmind-1-mini
