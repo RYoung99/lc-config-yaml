@@ -1945,7 +1945,6 @@ endpoints:
           - doubao-1.5-vision-pro-32k
           - doubao-seed-1-6-250615
           - doubao-seed-1-6-flash-250615
-          - doubao-seed-1-8-251215
           - doubao-seed-2-0-code-preview-260215
           - doubao-seed-2-0-lite-260215
           - doubao-seed-2-0-mini-260215
@@ -2075,8 +2074,6 @@ endpoints:
           - minimax/minimax-m2.7-turbo
           - minimax/minimax-m3
           - minimax/minimax-m3:thinking
-          - mirothinker-1-7-deepresearch
-          - mirothinker-1-7-deepresearch-mini
           - mistral-code-agent-latest
           - mistral-code-latest
           - mistral-small-31-24b-instruct
@@ -2261,9 +2258,6 @@ endpoints:
           - soob3123/GrayLine-Qwen3-8B
           - soob3123/Veiled-Calla-12B
           - soob3123/amoral-gemma3-27B-v2
-          - step-2-16k-exp
-          - step-2-mini
-          - step-3
           - step-r1-v-mini
           - stepfun-ai/step-3.5-flash
           - stepfun-ai/step-3.5-flash-2603
@@ -2482,6 +2476,7 @@ endpoints:
           - openai/gpt-oss-20b:free
           - poolside/laguna-s-2.1:free
           - poolside/laguna-xs-2.1:free
+          - z-ai/glm-5.2:free
           - '---AION-LABS---'
           - aion-labs/aion-2.0
           - aion-labs/aion-3.0
