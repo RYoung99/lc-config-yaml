@@ -1958,7 +1958,6 @@ endpoints:
           - claude-opus-4-1-20250805
           - claude-opus-4-1-thinking
           - claude-opus-4-1-thinking:1024
-          - claude-opus-4-1-thinking:32000
           - claude-opus-4-1-thinking:32768
           - claude-opus-4-1-thinking:8192
           - claude-opus-4-20250514
@@ -1966,7 +1965,6 @@ endpoints:
           - claude-opus-4-5-20251101:thinking
           - claude-opus-4-thinking
           - claude-opus-4-thinking:1024
-          - claude-opus-4-thinking:32000
           - claude-opus-4-thinking:32768
           - claude-opus-4-thinking:8192
           - claude-sonnet-4-20250514
