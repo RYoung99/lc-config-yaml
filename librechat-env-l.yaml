@@ -1513,7 +1513,7 @@ endpoints:
       baseURL: "https://api.deepseek.com"
       models:
         default:
-          - deepseek-v4-flash
+          - deepseek-flash
           - deepseek-v4-pro
         fetch: false
       titleConvo: true
@@ -1529,11 +1529,26 @@ endpoints:
       baseURL: "https://api.fireworks.ai/inference/v1"
       models:
         default:
-          - accounts/fireworks/models/deepseek-v4-pro
-          - accounts/fireworks/models/glm-5p1
+          - accounts/fireworks/models/deepseek-v4p1-flash
+          - accounts/fireworks/models/ember-1
           - accounts/fireworks/models/glm-5p2
+          - accounts/fireworks/models/glm-5p3
+          - accounts/fireworks/models/glm-5p3-flash
           - accounts/fireworks/models/gpt-oss-120b
-          - accounts/fireworks/models/kimi-k2p6
+          - accounts/fireworks/models/inkling
+          - accounts/fireworks/models/kimi-k3
+          - accounts/fireworks/models/minimax-m3
+          - accounts/fireworks/models/nemotron-3-ultra-nvfp4
+          - accounts/fireworks/models/nemotron-lightning-3p5-30b-a3b
+          - accounts/fireworks/models/qwen3-embedding-8b
+          - accounts/fireworks/models/qwen3-reranker-8b
+          - accounts/fireworks/models/qwen3p8-2p4t-a95b
+          - accounts/fireworks/models/qwen3p8-max
+          - accounts/fireworks/routers/glm-5p2-fast
+          - accounts/fireworks/routers/glm-5p3-fast
+          - accounts/fireworks/routers/kimi-k3-fast
+          - auto
+          - firerouter/auto
         fetch: false
       titleConvo: true
       titleModel: "accounts/fireworks/models/llama-v2-7b-chat"
@@ -1573,18 +1588,12 @@ endpoints:
           - allam-2-7b
           - canopylabs/orpheus-arabic-saudi
           - canopylabs/orpheus-v1-english
-          - groq/compound
-          - groq/compound-mini
-          - llama-3.1-8b-instant
-          - llama-3.3-70b-versatile
-          - meta-llama/llama-4-scout-17b-16e-instruct
           - meta-llama/llama-prompt-guard-2-22m
           - meta-llama/llama-prompt-guard-2-86m
           - openai/gpt-oss-120b
           - openai/gpt-oss-20b
           - openai/gpt-oss-safeguard-20b
-          - qwen/qwen3-32b
-          - qwen/qwen3.6-27b
+          - qwen/qwen3.8-27b
         fetch: false
       titleConvo: true
       titleModel: "mixtral-8x7b-32768"
@@ -3362,11 +3371,15 @@ endpoints:
           - grok-4.20-multi-agent-0309
           - grok-4.3
           - grok-4.5
+          - grok-4.6
+          - grok-4.7
           - grok-build-0.1
           - grok-imagine-image
+          - grok-imagine-image-2.0
           - grok-imagine-image-quality
           - grok-imagine-video
           - grok-imagine-video-1.5
+          - grok-imagine-video-1.5-lite
         fetch: false
       titleConvo: true
       titleMethod: "completion"
