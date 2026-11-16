@@ -2084,6 +2084,8 @@ endpoints:
           - liquid/lfm-3-1.7b
           - longcat-2.0
           - longcat-2.0:thinking
+          - lyber/deepseek-v4.1-flash-1017-abliterated
+          - lyber/kimi-k3.1-pro-abliterated
           - meganova-ai/manta-flash-1.0
           - meganova-ai/manta-mini-1.0
           - meganova-ai/manta-pro-1.0
@@ -2879,7 +2881,6 @@ endpoints:
           - qwen/qwen3-next-80b-a3b-instruct
           - qwen/qwen3-vl-235b-a22b-instruct
           - qwen/qwen3-vl-30b-a3b-instruct
-          - qwen/qwen3-vl-30b-a3b-thinking
           - qwen/qwen3-vl-8b-instruct
           - qwen/qwen3.5-122b-a10b
           - qwen/qwen3.5-27b
@@ -2905,17 +2906,13 @@ endpoints:
           - qwen/qwen3.8-max-0902:batch
           - qwen/qwen3.8-max-prime
           - qwen/qwen3.8-omni-flash
+          - qwen/qwen4-max
           - '---SAKANA---'
           - sakana/fugu-max
           - sakana/fugu-ultra
           - sakana/fugu-ultra-v2
           - sakana/sakana-namazu
-          - '---STEPFUN---'
-          - stepfun/step-3.5-flash
-          - stepfun/step-3.7-flash
-          - stepfun/step-5-preview
           - '---TENCENT---'
-          - tencent/hunyuan-a13b-instruct
           - tencent/hy-mt2-1.8b
           - tencent/hy-mt2-30b-a3b
           - tencent/hy-mt2-7b
@@ -3024,6 +3021,8 @@ endpoints:
           - sao10k/l3.1-euryale-70b
           - scaledown/extract
           - scaledown/summarize
+          - stepfun/step-3.7-flash
+          - stepfun/step-5-preview
           - typesafe/jev-router
           - undi95/remm-slerp-l2-13b
           - upstage/solar-mini4
